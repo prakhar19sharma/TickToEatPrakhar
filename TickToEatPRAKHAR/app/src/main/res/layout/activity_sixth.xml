@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthActivity">
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:fontFamily="monospace"
+        android:text="   Order Successfully Placed"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:text="Your Order Is"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="62dp"
+        android:onClick="goBack6"
+        android:text="ORDER MORE"
+        android:layout_alignParentLeft="true"
+        tools:ignore="OnClick,RtlCompat" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button10"
+        android:layout_marginEnd="58dp"
+        android:onClick="done"
+        android:text="DONE "
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlCompat" />
+
+    <ScrollView
+        android:layout_width="328dp"
+        android:layout_height="211dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="95dp"
+        android:layout_marginEnd="-244dp"
+        android:layout_toStartOf="@+id/textView63"
+        android:layout_marginRight="-244dp"
+        android:layout_toLeftOf="@+id/textView63"
+        tools:ignore="RtlCompat">
+        <TextView
+            android:id="@+id/textViewFinalOrder"
+            android:layout_width="285dp"
+            android:layout_height="171dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="119dp"
+            android:text="TextView" />
+        />
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

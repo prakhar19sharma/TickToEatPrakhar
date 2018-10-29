@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+
+    <CheckBox
+        android:id="@+id/radiofourth4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="209dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="getItem4"
+        android:text="Sunshine Pad Thai"
+        tools:ignore="RtlCompat" />
+
+    <CheckBox
+        android:id="@+id/radiofourth5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fourth3"
+        android:layout_alignTop="@+id/radiofourth6"
+        android:onClick="getItem4"
+        android:text="Noodles"
+        android:layout_alignLeft="@+id/fourth3"
+        tools:ignore="RtlCompat" />
+
+    <CheckBox
+        android:id="@+id/radiofourth6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/radiofourth4"
+        android:layout_marginBottom="66dp"
+        android:onClick="getItem4"
+        android:text="Ghee Corn Chowder"
+        android:layout_alignLeft="@+id/radiofourth4"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/fourth2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/fourth4"
+        android:layout_alignTop="@+id/fourth1"
+        android:background="#60f5c9c9"
+        app:srcCompat="@drawable/fourth2"
+        android:layout_alignLeft="@+id/fourth4"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/fourth3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/fourth1"
+        android:layout_marginTop="169dp"
+        android:background="#60f5c9c9"
+        app:srcCompat="@drawable/fourth3"
+        android:layout_alignLeft="@+id/fourth1"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/fourth4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/fourth6"
+        android:layout_alignTop="@+id/fourth3"
+        android:background="#60f5c9c9"
+        app:srcCompat="@drawable/fourth4"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/fourth5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/fourth3"
+        android:layout_alignTop="@+id/fourth6"
+        android:background="#60f5c9c9"
+        app:srcCompat="@drawable/fourth5"
+        android:layout_alignLeft="@+id/fourth3"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/fourth6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="111dp"
+        android:layout_marginEnd="49dp"
+        android:background="#60f5c9c9"
+        app:srcCompat="@drawable/fourth6"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="49dp"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/fourth1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="29dp"
+        android:background="#60f5c9c9"
+        app:srcCompat="@drawable/fourth1"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/second2"
+        android:layout_centerHorizontal="true"
+        android:text="MAIN COURSE"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/radiofourth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/radiofourth4"
+        android:layout_marginTop="130dp"
+        android:onClick="getItem4"
+        android:text="Green Falafel Bowl"
+        android:layout_alignLeft="@+id/radiofourth4"
+        tools:ignore="RtlCompat" />
+
+    <CheckBox
+        android:id="@+id/radiofourth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radiofourth2"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+        android:onClick="getItem4"
+        android:text="Chana Masala"
+        tools:ignore="RtlCompat" />
+
+    <CheckBox
+        android:id="@+id/radiofourth3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radiofourth5"
+        android:layout_alignStart="@+id/radiofourth5"
+        android:layout_alignTop="@+id/radiofourth4"
+        android:onClick="getItem4"
+        android:text="Vegan Nachos"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiofourth5"
+        android:layout_centerHorizontal="true"
+        android:onClick="goBack4"
+        android:text="BACK"
+        tools:text="BACK" />
+
+</RelativeLayout>
